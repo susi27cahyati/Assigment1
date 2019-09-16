@@ -98,7 +98,7 @@ public class Robot {
     }
 
     public String print() {
-        return "Car{" +
+        return "Robot{" +
                 "postX=" + postX +
                 ", postY=" + postY +
                 ", commands=" + Arrays.toString(commands) +
