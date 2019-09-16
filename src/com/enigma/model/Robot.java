@@ -82,7 +82,8 @@ public class Robot {
             case BACK :
                 backward();
             default :
-                System.out.println("Salah input gerakan");
+                System.out.println("Salah input gerakan : "+movement+"");
+                System.exit(0);
         }
     }
 
